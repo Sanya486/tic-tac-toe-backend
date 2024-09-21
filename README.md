@@ -52,6 +52,7 @@ To set up the backend locally, follow the steps below:
     ```
 
 4. **Start the development server:**
+
     ```bash
     npm start
     ```
