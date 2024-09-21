@@ -45,10 +45,8 @@ const handleTicTocToeTurn = async (req, res) => {
   ];
 
   const isPCTurn = isPlayWithComputer && history.length < 9 && !winner.winner;
-  console.log(isPCTurn);
 
   if (isPCTurn) {
-    console.log('Go into PC');
     const emptyIndexes = [];
     const squareCopy = squares.slice();
 
