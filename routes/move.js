@@ -1,12 +1,7 @@
 const express = require('express');
+const handleTicTocToeTurn = require('../controllers/tictactoe');
 const router = express.Router();
 
-
-router.post('/', async (req, res) => {
-    res.json({
-        message: "Hello World"
-    })
-});
-
+router.post('/', handleTicTocToeTurn);
 
 module.exports = router;
